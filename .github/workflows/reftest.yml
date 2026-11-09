@@ -1,0 +1,64 @@
+name: reftest
+
+# Reference-differential correctness gate: run every reversible Janus program
+# on many random inputs and compare its result to a trusted Python reference
+# implementation (tools/reftest.py).  Exits non-zero if any algorithm diverges.
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - '**/*.j'
+      - 'tools/reftest.py'
+      - '.github/workflows/reftest.yml'
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  reftest:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        seed: [1, 42, 99]
+    steps:
+      - name: Checkout reversible-algorithms
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch PyJanus interpreter (public)
+        run: git clone --depth 1 https://github.com/yokoyama-lab/PyJanus.git "$RUNNER_TEMP/PyJanus"
+
+      - name: Reference-differential correctness (seed ${{ matrix.seed }})
+        env:
+          PYJANUS: ${{ runner.temp }}/PyJanus
+        run: python3 tools/reftest.py --cases 200 --seed ${{ matrix.seed }}
+
+  catalog:
+    # The committed catalog must match what build_catalog.py generates from the
+    # current tree (i.e. contributors regenerated it after adding programs).
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout reversible-algorithms
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch PyJanus interpreter (public)
+        run: git clone --depth 1 https://github.com/yokoyama-lab/PyJanus.git "$RUNNER_TEMP/PyJanus"
+
+      - name: Regenerate catalog and diff against committed version
+        env:
+          PYJANUS: ${{ runner.temp }}/PyJanus
+        run: |
+          python3 tools/build_catalog.py
+          git diff --exit-code catalog.json CATALOG.md || {
+            echo '::error::catalog.json / CATALOG.md is stale — run: PYJANUS=<path> python3 tools/build_catalog.py'; exit 1; }

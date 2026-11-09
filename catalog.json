@@ -1,0 +1,1076 @@
+{
+ "records": [
+  {
+   "file": "apsp/apsp.j",
+   "category": "Graph",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible All-Pairs Shortest Paths via (min,+) matrix multiplication"
+  },
+  {
+   "file": "avl/avl_delete.j",
+   "category": "Data structure",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible AVL Tree -- Delete (with rotations)"
+  },
+  {
+   "file": "avl/avl_insert.j",
+   "category": "Data structure",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible AVL Tree -- Insert (with rotations)"
+  },
+  {
+   "file": "avl/avl_search.j",
+   "category": "Data structure",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible AVL Tree -- Search"
+  },
+  {
+   "file": "bellman_ford/bellman_ford.j",
+   "category": "Graph",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Bellman-Ford (single-source shortest paths)"
+  },
+  {
+   "file": "bfs/bfs.j",
+   "category": "Graph",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Breadth-First Search"
+  },
+  {
+   "file": "bsort/bsort2.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "bubble sort with optimal garbage"
+  },
+  {
+   "file": "bsort/code/bsort1.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": ""
+  },
+  {
+   "file": "bsort/code/bsort1_online.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Tested on an online interpreter: http://topps.diku.dk/pirc/janus-playground/"
+  },
+  {
+   "file": "bsort/code/bsort2.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Xor-copying from s[] to t[] of length n"
+  },
+  {
+   "file": "bsort/code/bsort3.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Setting to p[] identity permutation of length n"
+  },
+  {
+   "file": "bsort/code/bsort4.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "checked on Oct. 17, 2014"
+  },
+  {
+   "file": "bsort/code/bsort5.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "We compute the values d[] in the order of decreasing i, the opposite order to bsort4"
+  },
+  {
+   "file": "bsort/code/bsort_dijkstra79_A2.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Dijkstra, E. W. (1979). Program Inversion. Program Construction, International Summer Scho"
+  },
+  {
+   "file": "bsort/code/bsort_irev.j",
+   "category": "Sorting",
+   "status": "by_design",
+   "detail": "irreversible demo variant (uses emit; non-jana2014)",
+   "in_pyjanus_corpus": false,
+   "provenance": ""
+  },
+  {
+   "file": "bsort/examples/bsort_inversiontable.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "bubble sort with optimal intermediate garbage and optimal garbage (inversion table)"
+  },
+  {
+   "file": "bsort/examples/bsort_inversiontable_r2l.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "bubble sort (right to left) with optimal intermediate garbage and optimal garbage:"
+  },
+  {
+   "file": "csort/csort1.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Counting Sort"
+  },
+  {
+   "file": "depth_search/dsearch1.j",
+   "category": "Graph",
+   "status": "library",
+   "detail": "no main procedure (reusable procedures only)",
+   "in_pyjanus_corpus": false,
+   "provenance": "卒業研究「可逆な深さ優先探索」"
+  },
+  {
+   "file": "depth_search/dsearch2.j",
+   "category": "Graph",
+   "status": "library",
+   "detail": "no main procedure (reusable procedures only)",
+   "in_pyjanus_corpus": false,
+   "provenance": "卒業研究「可逆な深さ優先探索」"
+  },
+  {
+   "file": "depth_search/dsearch3.j",
+   "category": "Graph",
+   "status": "library",
+   "detail": "no main procedure (reusable procedures only)",
+   "in_pyjanus_corpus": false,
+   "provenance": "卒業研究「可逆な深さ優先探索」"
+  },
+  {
+   "file": "depth_search/dsearch_matrix.j",
+   "category": "Graph",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Depth-First Search (adjacency matrix, recursive)"
+  },
+  {
+   "file": "dijkstra/dijkstra.j",
+   "category": "Graph",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Dijkstra (single-source shortest paths, O(V^2))"
+  },
+  {
+   "file": "dp/edit_distance.j",
+   "category": "Dynamic programming",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Reversible Edit Distance (Levenshtein, dynamic programming)"
+  },
+  {
+   "file": "dp/knapsack.j",
+   "category": "Dynamic programming",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible 0/1 Knapsack (dynamic programming)"
+  },
+  {
+   "file": "dp/lcs.j",
+   "category": "Dynamic programming",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Reversible Longest Common Subsequence (dynamic programming)"
+  },
+  {
+   "file": "dp/lis.j",
+   "category": "Dynamic programming",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Longest Increasing Subsequence (O(n^2) DP)"
+  },
+  {
+   "file": "dynarray/dynarray.j",
+   "category": "Data structure",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Dynamic Array"
+  },
+  {
+   "file": "floyd_warshall/floyd_warshall.j",
+   "category": "Graph",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Floyd-Warshall (all-pairs shortest paths)"
+  },
+  {
+   "file": "geometry/closest_pair.j",
+   "category": "Geometry",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Closest Pair of Points (brute force, squared distances)"
+  },
+  {
+   "file": "geometry/convex_hull.j",
+   "category": "Geometry",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Convex Hull (Jarvis march / gift wrapping)"
+  },
+  {
+   "file": "hsort/code/hsort1.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "heapsort with optimal garbage"
+  },
+  {
+   "file": "hsort/code/hsort2.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Wrong!"
+  },
+  {
+   "file": "hsort/hsort2.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "heapsort with optimal garbage"
+  },
+  {
+   "file": "hsort/hsort3.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "percolating heapsort with optimal garbage"
+  },
+  {
+   "file": "inc_code/inc_decfac.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": ""
+  },
+  {
+   "file": "inc_code/inc_perm.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Next Permutation (lexicographic successor)"
+  },
+  {
+   "file": "inc_code/inc_perm_clean.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Reversible Next Permutation WITHOUT garbage"
+  },
+  {
+   "file": "isort/code/isort1.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "checked on Oct. 17, 2014"
+  },
+  {
+   "file": "isort/code/isort1_old.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "insert a[j] into a[0..j]"
+  },
+  {
+   "file": "isort/code/isort2.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "checked on Oct. 17, 2014"
+  },
+  {
+   "file": "isort/code/isort2_old.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Xor-copying from s[] to t[] of length n"
+  },
+  {
+   "file": "isort/code/isort3.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "checked on Oct. 17, 2014"
+  },
+  {
+   "file": "isort/code/isort3_old.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Xor-copying from s[] to t[] of length n"
+  },
+  {
+   "file": "isort/code/isort4_old.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "insert a[j] into a[0..j]"
+  },
+  {
+   "file": "isort/code/isort_dijkstra79_A1.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Dijkstra, E. W. (1979). Program Inversion. Program Construction, International Summer Scho"
+  },
+  {
+   "file": "isort/code/isort_irev.j",
+   "category": "Sorting",
+   "status": "by_design",
+   "detail": "irreversible demo variant (uses emit; non-jana2014)",
+   "in_pyjanus_corpus": false,
+   "provenance": "insert a[j] into a[j+1..n-1]"
+  },
+  {
+   "file": "isort/code/isort_irev1.j",
+   "category": "Sorting",
+   "status": "by_design",
+   "detail": "irreversible demo variant (uses emit; non-jana2014)",
+   "in_pyjanus_corpus": false,
+   "provenance": "find the previous element to one at position x in L[] and set its position to p"
+  },
+  {
+   "file": "isort/disort.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Duplicated Insertion Sort"
+  },
+  {
+   "file": "isort/isort10.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "insertion sort (right to left) with optimal intermediate garbage: right decreasing relativ"
+  },
+  {
+   "file": "isort/isort5.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Cormen, T. H., et al. (2009). Introduction to Algorithms third edition, The MIT Press. p.1"
+  },
+  {
+   "file": "isort/isort6.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "isort with optimal garbage"
+  },
+  {
+   "file": "isort/isort7.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "isort using optimal intermediate garbage with optimal garbage"
+  },
+  {
+   "file": "isort/isort8.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "insertion sort (left to right) with optimal intermediate garbage: (left) inversion table f"
+  },
+  {
+   "file": "isort/isort9.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "insertion sort (right to left) with optimal intermediate garbage: right decreasing relativ"
+  },
+  {
+   "file": "isort/isort_hall.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Hall, J. S. (1994). A reversible instruction set architecture and algorithms. Physics and "
+  },
+  {
+   "file": "linear_search/Lsearch1.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，単純法"
+  },
+  {
+   "file": "linear_search/Lsearch2.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，単純法"
+  },
+  {
+   "file": "linear_search/Lsearch3.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」"
+  },
+  {
+   "file": "linear_search/Lsearch4.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，単純法スタックver"
+  },
+  {
+   "file": "linear_search/Lsearch5.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，単純法スタックver"
+  },
+  {
+   "file": "linear_search/Lsearch6.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，単純法スタックver"
+  },
+  {
+   "file": "linear_search/Lsearch7.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，単純法スタックver"
+  },
+  {
+   "file": "linear_search/list_sentinel1.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，リスト＋番兵法"
+  },
+  {
+   "file": "linear_search/list_sentinel2.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，リスト＋番兵法"
+  },
+  {
+   "file": "linear_search/list_sentinel3.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，リスト＋番兵法スタックver"
+  },
+  {
+   "file": "linear_search/list_sentinel4.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，リスト＋番兵法スタックver"
+  },
+  {
+   "file": "linear_search/list_sentinel5.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，リスト＋番兵法スタックver"
+  },
+  {
+   "file": "linear_search/sentinel1.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，番兵法"
+  },
+  {
+   "file": "linear_search/sentinel2.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，番兵法"
+  },
+  {
+   "file": "linear_search/sentinel3.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，番兵法スタックver"
+  },
+  {
+   "file": "linear_search/sentinel4.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，番兵法スタックver"
+  },
+  {
+   "file": "linear_search/sentinel5.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "2017 年度 南山大学 理工学部 卒業研究「可逆線形探索」，番兵法スタックver"
+  },
+  {
+   "file": "minheap/minheap_GPC2018.j",
+   "category": "Data structure",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Guo, L., Peng, C. and He, C.: New Reversible Computing Algorithms for Shortest Paths Probl"
+  },
+  {
+   "file": "minheap/minheap_Nohr2015.j",
+   "category": "Data structure",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Nøhr, S. V.: Reversible Graph Algorithms, Bachelor's thesis, Copenhagen University (2015)."
+  },
+  {
+   "file": "minheap/minheap_Nohr2015_w_macro.j",
+   "category": "Data structure",
+   "status": "by_design",
+   "detail": "macro template; expand with preprocess.sh",
+   "in_pyjanus_corpus": false,
+   "provenance": "以下の卒論にあるプログラムをマクロを使って簡略化し、ゴミを大幅に減らしたバージョン"
+  },
+  {
+   "file": "minheap/minheap_subset.j",
+   "category": "Data structure",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible binary (min-)heap -- verified-subset-compliant version."
+  },
+  {
+   "file": "msort/code/msort.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "mergesort using internally optimal garbage with optimal garbage"
+  },
+  {
+   "file": "msort/msort1.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "mergesort with optimal garbage"
+  },
+  {
+   "file": "msort/msort2.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "mergesort using internally optimal garbage with optimal garbage"
+  },
+  {
+   "file": "mst/prim.j",
+   "category": "Graph",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Prim MST (minimum spanning tree, O(V^2))"
+  },
+  {
+   "file": "numeric/ext_gcd.j",
+   "category": "Numeric",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Extended Euclidean Algorithm"
+  },
+  {
+   "file": "numeric/ext_gcd_clean.j",
+   "category": "Numeric",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Reversible Extended Euclidean Algorithm WITHOUT a quotient log"
+  },
+  {
+   "file": "numeric/gcd.j",
+   "category": "Numeric",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Reversible GCD (subtractive Euclid)"
+  },
+  {
+   "file": "numeric/gcd_clean.j",
+   "category": "Numeric",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Reversible GCD (subtractive Euclid) WITHOUT a step log"
+  },
+  {
+   "file": "numeric/modexp.j",
+   "category": "Numeric",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Modular Exponentiation (square-and-multiply)"
+  },
+  {
+   "file": "others/code/decfac2rank.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "iterative factorial: linear time"
+  },
+  {
+   "file": "others/code/factorial.j",
+   "category": "Combinatorics/Numeric",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Tested on an online interpreter: http://topps.diku.dk/pirc/janus-playground/"
+  },
+  {
+   "file": "others/code/lisort.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "find the previous element to one at position x in L[] and set its position to p"
+  },
+  {
+   "file": "others/examples/binarytree2e.j",
+   "category": "Graph",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Depth first search: dfs_rec"
+  },
+  {
+   "file": "others/examples/breadth_first_search.j",
+   "category": "Graph",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "reversible queue"
+  },
+  {
+   "file": "others/examples/buildTree.j",
+   "category": "Data structure",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Er, N. C. (1983)."
+  },
+  {
+   "file": "others/examples/combination.j",
+   "category": "Combinatorics/Numeric",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "iterative factorial: linear time"
+  },
+  {
+   "file": "others/examples/counting_sort.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "counting sort with optimal garbage"
+  },
+  {
+   "file": "others/examples/fact.j",
+   "category": "Combinatorics/Numeric",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "recursive factorial: factR is called exponential times"
+  },
+  {
+   "file": "others/examples/factorization.j",
+   "category": "Combinatorics/Numeric",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Lutz, C. (1986). \"Janus: a time-reversible language.\""
+  },
+  {
+   "file": "others/examples/genParentheses.j",
+   "category": "Combinatorics/Numeric",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Er, N. C. (1983)."
+  },
+  {
+   "file": "others/examples/genSuc.j",
+   "category": "Combinatorics/Numeric",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Er, M. C. (1985)."
+  },
+  {
+   "file": "others/examples/invtab2rank.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "A clean translation from an inversion table to a rank"
+  },
+  {
+   "file": "others/examples/linkedlist5e.j",
+   "category": "Data structure",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Insertion and search on sorted lists"
+  },
+  {
+   "file": "others/examples/shell_sort1.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Sedgewick, R. (1997). Algorithms in C: Parts 1-4, Fundamentals, Data Structures, Sorting, "
+  },
+  {
+   "file": "others/matrixmult.j",
+   "category": "Numeric",
+   "status": "by_design",
+   "detail": "pseudo-code sketch, not executable jana2014",
+   "in_pyjanus_corpus": false,
+   "provenance": "Debug variables"
+  },
+  {
+   "file": "others/stackPermut.j",
+   "category": "Data structure",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Er, N. C. (1983)."
+  },
+  {
+   "file": "perm/code/perm2decfac.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Bonet, B. (2008). Efficient algorithms to rank and unrank permutations in lexicographic or"
+  },
+  {
+   "file": "perm/code/perm2decfac_nolex.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "p[0] ^= 2"
+  },
+  {
+   "file": "perm/code/perm2rank.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Myrvold, W. and F. Ruskey (2001). \"Ranking and unranking permutations in linear time.\" Inf"
+  },
+  {
+   "file": "perm/code/perm2rank2.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Myrvold, W. and F. Ruskey (2001). \"Ranking and unranking permutations in linear time.\" Inf"
+  },
+  {
+   "file": "perm/perm.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "recursive implementation of permutation: exponential time"
+  },
+  {
+   "file": "perm/perm2.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "recursive implementation of permutation: linear time"
+  },
+  {
+   "file": "perm/perm2invtab1.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Permutation to inversion table"
+  },
+  {
+   "file": "qsort/code/qsort.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "xor-copy to p the index of the maximum of ord[l..r]"
+  },
+  {
+   "file": "qsort/code/qsort1.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "xor-copy to p the index of the maximum of ord[l..r]"
+  },
+  {
+   "file": "qsort/code/qsort2.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "in-place quick sort"
+  },
+  {
+   "file": "qsort/qsort2.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "qsort using minimum garbage with optimal garbage"
+  },
+  {
+   "file": "qsort/queue5e.j",
+   "category": "Data structure",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Queue"
+  },
+  {
+   "file": "rank/rank.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Er, M. C. (1985)."
+  },
+  {
+   "file": "rank/rank_lexicographic.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Bonet, B. (2008). Efficient algorithms to rank and unrank permutations in lexicographic or"
+  },
+  {
+   "file": "rank/rank_perm.j",
+   "category": "Permutation/ranking",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Myrvold, W. and F. Ruskey (2001). \"Ranking and unranking permutations in linear time.\" Inf"
+  },
+  {
+   "file": "scc/kosaraju.j",
+   "category": "Graph",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Kosaraju SCC (strongly connected components)"
+  },
+  {
+   "file": "ssort/code/ssort.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "selection sort with optimal garbage (linear size)"
+  },
+  {
+   "file": "ssort/code/ssort1.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "checked on Oct. 17, 2014"
+  },
+  {
+   "file": "ssort/ssort1.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "selection sort with optimal garbage (linear size)"
+  },
+  {
+   "file": "string_search/Force_str_search1-a.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Cのプログラム（force_str_search.c）を元に可逆化をしたJanusプログラム"
+  },
+  {
+   "file": "string_search/Force_str_search1-b.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Cのプログラム（force_str_search.c）を元に可逆化をしたJanusプログラム"
+  },
+  {
+   "file": "string_search/Force_str_search1-c.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "Cのプログラム（force_str_search.c）を元に可逆化をしたJanusプログラム"
+  },
+  {
+   "file": "string_search/Force_str_search2-a.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "if文のelse部分を変更することによりスタックを排除した形"
+  },
+  {
+   "file": "string_search/Force_str_search2-b.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "if文のelse部分を変更することによりスタックを排除した形"
+  },
+  {
+   "file": "string_search/Force_str_search2-c.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": false,
+   "provenance": "if文のelse部分を変更することによりスタックを排除した形"
+  },
+  {
+   "file": "string_search/Force_str_search_rejected.j",
+   "category": "Searching",
+   "status": "by_design",
+   "detail": "documented rejected approach (kept for analysis notes)",
+   "in_pyjanus_corpus": false,
+   "provenance": "ゴミをなくす方法として文字が違ったとしてもパターンの最後まで比較させる方法を考えたがアサーションの記述が不可能になった"
+  },
+  {
+   "file": "string_search/kmp.j",
+   "category": "Searching",
+   "status": "by_design",
+   "detail": "historical known-broken; fixed implementation in kmp2.j",
+   "in_pyjanus_corpus": false,
+   "provenance": "STATUS: known-broken (WIP). Diagnosed 2026-07: the outer loops"
+  },
+  {
+   "file": "string_search/kmp1.j",
+   "category": "Searching",
+   "status": "by_design",
+   "detail": "historical known-broken; fixed implementation in kmp2.j",
+   "in_pyjanus_corpus": false,
+   "provenance": "STATUS: known-broken (WIP), same root cause as kmp.j: the outer loop"
+  },
+  {
+   "file": "string_search/kmp2.j",
+   "category": "Searching",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Knuth-Morris-Pratt (occurrence counting)"
+  },
+  {
+   "file": "toposort/toposort.j",
+   "category": "Graph",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Topological Sort (DFS post-order)"
+  },
+  {
+   "file": "treesort/treesort.j",
+   "category": "Sorting",
+   "status": "reversible",
+   "detail": "",
+   "in_pyjanus_corpus": true,
+   "provenance": "Reversible Comparison Sort, general case (via reversible AVL tree)"
+  }
+ ]
+}
