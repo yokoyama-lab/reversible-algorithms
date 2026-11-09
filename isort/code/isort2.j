@@ -34,9 +34,13 @@ procedure min_sub(int m, int ord[], int l, int r, stack gb)
     loop  if ord[i] <= ord[m] then
             push(m,gb)
             m ^= i
-            push(1,gb)
+            local int pushtmp = 1
+              push(pushtmp, gb)
+            delocal int pushtmp = 0
           else
-            push(0,gb)
+            local int pushtmp = 0
+              push(pushtmp, gb)
+            delocal int pushtmp = 0
           fi top(gb) = 1
           i += 1
     until i = r + 1

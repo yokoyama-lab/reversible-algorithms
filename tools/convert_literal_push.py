@@ -19,7 +19,7 @@ Usage: python3 tools/convert_literal_push.py FILE.j [FILE.j ...]   (edits in pla
 import re, sys
 
 # optional leading control keyword (then/else/do/loop) then a literal push
-LIT = re.compile(r'^(\s*)(then|else|do|loop)?\s*push\(\s*(-?\d+)\s*,\s*(\w+)\s*\)\s*(//.*)?$')
+LIT = re.compile(r'^(\s*)(then|else|do|loop)?\s*push\s*\(\s*(-?\d+)\s*,\s*(\w+)\s*\)\s*(//.*)?$')
 
 def convert(text):
     out, n = [], 0

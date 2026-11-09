@@ -9,9 +9,13 @@ procedure traverse(int k, int key, int f, stack g, int adj[], int visited[], int
     from t = adj[k] loop
       if visited[val[t]] = 0 then
         call traverse(val[t], key, f, g, adj, visited, next, val)
-        push(1, g)
+        local int pushtmp = 1
+          push(pushtmp, g)
+        delocal int pushtmp = 0
       else
-        push(0, g)
+        local int pushtmp = 0
+          push(pushtmp, g)
+        delocal int pushtmp = 0
       fi top(g) = 1
       t ^= adj[k]
       t ^= next[adj[k]]

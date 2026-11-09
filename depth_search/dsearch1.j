@@ -8,23 +8,35 @@ procedure traverse(int k, int key, int f, stack g, int adj[], int visited[], int
       if k = key then
         push(f, g)
         f ^= 1
-        push(1, g)
+        local int pushtmp = 1
+          push(pushtmp, g)
+        delocal int pushtmp = 0
       else
-        push(0, g)
+        local int pushtmp = 0
+          push(pushtmp, g)
+        delocal int pushtmp = 0
       fi top(g) = 1
-      push(1, g)
+      local int pushtmp = 1
+        push(pushtmp, g)
+      delocal int pushtmp = 0
       from top(g) = 1 loop
         if visited[val[t]]=0 then
           call traverse(val[t], key, f, g, adj, visited, next ,val )
-          push(1, g)
+          local int pushtmp = 1
+            push(pushtmp, g)
+          delocal int pushtmp = 0
         else
-          push(0, g)
+          local int pushtmp = 0
+            push(pushtmp, g)
+          delocal int pushtmp = 0
         fi top(g) = 1
         push(s, g)
         s ^= next[t]
         push(t, g)
         t ^= s
-        push (0, g)
+        local int pushtmp = 0
+          push(pushtmp, g)
+        delocal int pushtmp = 0
       until next[t] = 0 || f != 0
       push(t, g)
       push(s, g)
